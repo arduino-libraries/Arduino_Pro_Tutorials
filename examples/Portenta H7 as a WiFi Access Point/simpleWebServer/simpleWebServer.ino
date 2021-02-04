@@ -27,6 +27,14 @@ void setup() {
   // you can override it with the following:
   // WiFi.config(IPAddress(10, 0, 0, 1));
 
+  // The AP needs the password be at least 8 characters long
+   if(strlen(pass) < 8){    
+    Serial.println("Creating access point failed");
+    Serial.println("The WiFi password must be at least 8 characters long");
+    // don't continue
+    while(true);
+  }
+  
   // print the network name (SSID);
   Serial.print("Creating access point named: ");
   Serial.println(ssid);
