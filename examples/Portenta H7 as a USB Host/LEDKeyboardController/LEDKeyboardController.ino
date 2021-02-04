@@ -40,7 +40,7 @@ static int process_key(tusbh_ep_info_t* ep, const uint8_t* key);
 
 static const tusbh_boot_key_class_t cls_boot_key = {
   .backend = &tusbh_boot_keyboard_backend,
-  //.on_key = process_key
+  .on_key = process_key
 };
 
 static const tusbh_boot_mouse_class_t cls_boot_mouse = {
@@ -171,6 +171,7 @@ static int process_key(tusbh_ep_info_t* ep, const uint8_t* keys)
       else
         digitalWrite(LEDB, HIGH);
     }
+             
   } else if (key >= KEY_1 && key <= KEY_0) {
     if (modify & MOD_SHIFT) {
       stdin_recvchar(ksign[key - KEY_1]);
