@@ -1,7 +1,6 @@
 = Arduino_Pro_Tutorials Library for Arduino =
 
-The complete Arduino sketches from the Pro Tutorials found on the 
-(https://www.arduino.cc/pro/tutorials/portenta-h7)[Arduino Pro website].
+The complete Arduino sketches from the Pro Tutorials found on the [Arduino Pro website](https://www.arduino.cc/pro/tutorials/portenta-h7).
 
 == License ==
 
