@@ -32,7 +32,7 @@ jobs:
 
       matrix:
         board:
-          - fqbn: arduino:mbed:ArduinoPortentaH7
+          - fqbn: arduino:mbed:PORTENTA_H7_M7
 
     steps:
       - name: Checkout
