@@ -47,7 +47,7 @@ jobs:
             # Install the library from the local path.
             - source-path: ./
             # Install library dependencies.
-            - 'ArduinoBLE'
+            - name: ArduinoBLE
             
           sketch-paths: |
             - './examples/'
