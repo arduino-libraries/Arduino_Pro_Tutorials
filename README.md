@@ -1,9 +1,10 @@
 
-= Arduino_Pro_Tutorials Library for Arduino =
-![![Compile Examples status](https://github.com/arduino-libraries/Arduino_Pro_Tutorials/blob/main/.github/workflows/main.yml)
+# Arduino_Pro_Tutorials Library for Arduino
+
+![Compile Examples status](https://github.com/arduino-libraries/Arduino_Pro_Tutorials/blob/main/.github/workflows/main.yml)
 The complete Arduino sketches from the Pro Tutorials found on the https://www.arduino.cc/pro/tutorials/portenta-h7[Arduino Pro website].
 
-== License ==
+## License
 
 Copyright (c) 2021 Arduino SA. All rights reserved.
 
