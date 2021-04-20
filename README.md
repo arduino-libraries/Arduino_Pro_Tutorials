@@ -3,7 +3,7 @@
 
 
 [![Compiling](https://github.com/arduino-libraries/Arduino_Pro_Tutorials/actions/workflows/main.yml/badge.svg)](https://github.com/arduino-libraries/Arduino_Pro_Tutorials/actions/workflows/main.yml)
-The complete Arduino sketches from the Pro Tutorials found on the https://www.arduino.cc/pro/tutorials/portenta-h7[Arduino Pro website].
+The complete Arduino sketches from the Pro Tutorials found on the [Arduino Pro website](https://www.arduino.cc/pro/tutorials/portenta-h7).
 
 ## License
 
