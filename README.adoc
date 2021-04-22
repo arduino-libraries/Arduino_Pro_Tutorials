@@ -1,4 +1,9 @@
-= Arduino_Pro_Tutorials Library for Arduino =
+:repository-owner: arduino-libraries
+:repository-name: Arduino_Pro_Tutorials
+
+= {repository-name} Library for Arduino =
+
+image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
 
 The complete Arduino sketches from the Pro Tutorials found on the https://www.arduino.cc/pro/tutorials/portenta-h7[Arduino Pro website].
 
