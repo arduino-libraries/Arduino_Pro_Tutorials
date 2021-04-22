@@ -36,6 +36,17 @@ jobs:
       matrix:
         board:
           - fqbn: arduino:mbed_portenta:envie_m7
+            sketch-paths: |
+              - examples/BLE Connectivity on Portenta H7/PortentaBLE
+              - examples/Creating a Flash-Optimised Key-Value Store/FlashKeyValueStore
+              - examples/Dual Core Processing/BlinkRedLed
+              - examples/Dual Core Processing/BlinkRedLed_M7
+              - examples/Portenta H7 as a USB Host/LEDKeyboardController
+              - examples/Portenta H7 as a WiFi Access Point/SimpleWebServer
+              - examples/Setting Up Portenta H7 For Arduino/Blink
+          - fqbn: arduino:mbed_portenta:envie_m4
+            sketch-paths: |
+              - examples/Dual Core Processing/BlinkGreenLed_M4
 
     steps:
       - name: Checkout
@@ -53,8 +64,10 @@ jobs:
             - name: ArduinoBLE
             
           sketch-paths: |
-            - './examples/'
-            
+            # Sketches to compile for all boards
+            - examples/Dual Core Processing/BlinkBothCores
+            # Board-specific sketches
+            ${{ matrix.board.sketch-paths }}
           enable-deltas-report: true
           sketches-report-path: ${{ env.SKETCHES_REPORTS_PATH }}
 
