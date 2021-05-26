@@ -38,7 +38,7 @@ jobs:
           - fqbn: arduino:mbed_portenta:envie_m7
             sketch-paths: |
               - examples/BLE Connectivity on Portenta H7/PortentaBLE
-              - examples/Creating a Flash-Optimised Key-Value Store/FlashKeyValueStore
+              - examples/Creating a Flash-Optimised Key-Value Store/FlashKeyValue
               - examples/Dual Core Processing/BlinkRedLed
               - examples/Dual Core Processing/BlinkRedLed_M7
               - examples/Portenta H7 as a USB Host/LEDKeyboardController
