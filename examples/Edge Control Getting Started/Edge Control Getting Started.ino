@@ -15,7 +15,7 @@ void setup() {
   // Start the I2C connection 
   Wire.begin();
 
-  // Initalise the expander pins 
+  // Initalize the expander pins 
   Expander.begin();
   Expander.pinMode(EXP_LED1, OUTPUT);
 }
