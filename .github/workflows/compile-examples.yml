@@ -48,6 +48,10 @@ jobs:
             sketch-paths: |
               - examples/Dual Core Processing/BlinkGreenLed_M4
 
+          - fqbn: arduino:mbed_edge:edge_control
+            sketch-paths: |
+              - examples/Edge Control Getting Started
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -62,6 +66,7 @@ jobs:
             - source-path: ./
             # Install library dependencies.
             - name: ArduinoBLE
+            - name: Arduino_EdgeControl
             
           sketch-paths: |
             # Sketches to compile for all boards
