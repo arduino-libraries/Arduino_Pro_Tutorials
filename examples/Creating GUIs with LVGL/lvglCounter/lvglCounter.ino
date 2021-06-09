@@ -1,3 +1,7 @@
+/*
+    Using LVGL v7.11
+*/
+
 #include "Portenta_LittleVGL.h"
 
 static lv_obj_t *label;
