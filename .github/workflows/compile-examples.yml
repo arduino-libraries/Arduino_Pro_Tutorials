@@ -38,7 +38,7 @@ jobs:
           - fqbn: arduino:mbed_portenta:envie_m7
             sketch-paths: |
               - examples/BLE Connectivity on Portenta H7/PortentaBLE
-              - examples/Creating a Flash-Optimised Key-Value Store/FlashKeyValueStore
+              - examples/Creating a Flash-Optimised Key-Value Store/FlashKeyValue
               - examples/Dual Core Processing/BlinkRedLed
               - examples/Dual Core Processing/BlinkRedLed_M7
               - examples/Portenta H7 as a USB Host/LEDKeyboardController
@@ -47,6 +47,10 @@ jobs:
           - fqbn: arduino:mbed_portenta:envie_m4
             sketch-paths: |
               - examples/Dual Core Processing/BlinkGreenLed_M4
+
+          - fqbn: arduino:mbed_edge:edge_control
+            sketch-paths: |
+              - examples/Edge Control Getting Started
 
     steps:
       - name: Checkout
@@ -62,6 +66,7 @@ jobs:
             - source-path: ./
             # Install library dependencies.
             - name: ArduinoBLE
+            - name: Arduino_EdgeControl
             
           sketch-paths: |
             # Sketches to compile for all boards
