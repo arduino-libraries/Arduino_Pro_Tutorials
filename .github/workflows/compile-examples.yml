@@ -68,6 +68,7 @@ jobs:
             # Install library dependencies.
             - name: ArduinoBLE
             - name: Arduino_EdgeControl
+            - name: lvgl
             
           sketch-paths: |
             # Sketches to compile for all boards
