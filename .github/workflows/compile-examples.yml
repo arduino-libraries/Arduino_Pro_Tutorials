@@ -69,7 +69,7 @@ jobs:
             - name: ArduinoBLE
             - name: Arduino_EdgeControl
             - name: lvgl
-            - version: 7.11
+              version: 7.11
             
           sketch-paths: |
             # Sketches to compile for all boards
