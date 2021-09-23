@@ -7,7 +7,7 @@ image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml/badge.svg["Compile Examples status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml"]
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
 
-The complete Arduino sketches from the Pro Tutorials found on the https://www.arduino.cc/pro/tutorials/portenta-h7[Arduino Pro website].
+This library contains the complete Arduino sketches from the Arduino Pro Tutorials found https://docs.arduino.cc/[here] under the corresponding product page.
 
 == License ==
 
