@@ -7,10 +7,10 @@ image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml/badge.svg["Compile Examples status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml"]
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
 
-This library contains the complete Arduino sketches from the Arduino Pro Tutorials found [here](https://docs.arduino.cc/hardware/portenta-h7/) under the corresponding product page.
+This library contains the complete Arduino sketches from the Arduino Pro Tutorials found https://docs.arduino.cc/hardware/portenta-h7/[here] under the Tutorials title.
 
 
-[go](https://rocksetta.com)
+
 == License ==
 
 Copyright (c) 2021 Arduino SA. All rights reserved.
