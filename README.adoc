@@ -7,7 +7,12 @@ image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml/badge.svg["Compile Examples status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml"]
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
 
-This library contains the complete Arduino sketches from the Arduino Pro Tutorials found https://docs.arduino.cc/hardware/portenta-h7/[here] under the Tutorials title.
+This library contains the complete Arduino sketches from the Arduino Pro Tutorials found on the Arduino docs website under the Tutorials title of the corresponding product.
+
+* https://docs.arduino.cc/hardware/portenta-h7#tutorials[Arduino Portenta H7]
+* https://docs.arduino.cc/hardware/portenta-h7-lite#tutorials[Arduino Portenta H7 Lite]
+* https://docs.arduino.cc/hardware/edge-control#tutorials[Arduino Edge Control]
+* https://docs.arduino.cc/hardware/portenta-vision-shield#tutorials[Arduino Portenta Vision Shield]
 
 
 
