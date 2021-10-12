@@ -6,8 +6,9 @@
 
 static lv_obj_t *label;
 int counter = 0;
+lv_timer_t * timer;
 
-static void updateCounterTask(lv_task_t *task) {
+static void updateCounterTimer(lv_timer_t *timer) {
   // Print the count to the Serial monitor
   Serial.println(counter);
 
@@ -25,19 +26,19 @@ void setup() {
   portenta_init_video();
 
   // Setting up the label making it a child of the screen
-  label = lv_label_create(lv_scr_act(), NULL);
+  label = lv_label_create(lv_scr_act());
 
   // Set the label's text
   lv_label_set_text(label , "Counter");
 
   // We move it to the center of the screen and align it centered
-  lv_obj_align(label, NULL, LV_ALIGN_CENTER, 0, 0);
+  lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
 
-  // Create a task to update the counter
-  lv_task_create(updateCounterTask, 1000, LV_TASK_PRIO_MID, NULL);
+  // Create a timer to update the counter
+  timer = lv_timer_create(updateCounterTimer, 1000, NULL);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  lv_task_handler();
+  lv_timer_handler();
 }
