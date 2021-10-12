@@ -78,7 +78,6 @@ jobs:
             - name: ArduinoBLE
             - name: Arduino_EdgeControl
             - name: lvgl
-              version: 7.11.0
             - name: Arduino_BHY2
             
           sketch-paths: |
