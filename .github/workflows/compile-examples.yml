@@ -54,14 +54,6 @@ jobs:
             sketch-paths: |
               - examples/Edge Control Getting Started
 
-          - fqbn: arduino:mbed_nicla:nicla_sense
-            sketch-paths: |
-              - examples/Nicla Sense ME as a MKR Shield/NiclaShieldController
-
-          - fqbn: arduino:samd:mkrwifi1010
-            sketch-paths: |
-              - examples/Nicla Sense ME as a MKR Shield/NiclaShieldHost
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
