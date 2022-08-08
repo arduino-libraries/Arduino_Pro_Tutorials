@@ -8,6 +8,8 @@ mbed::FATFileSystem fileSystem("fs");
 HM01B0 himax;
 Camera cam(himax);
 
+FrameBuffer fb; // Buffer to save the capture
+
 // Settings for our setup
 #define RES_H (unsigned int)240
 #define RES_W (unsigned int)320
