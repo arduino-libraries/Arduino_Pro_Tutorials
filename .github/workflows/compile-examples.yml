@@ -45,6 +45,7 @@ jobs:
               - examples/Portenta H7 as a USB Host/LEDKeyboardController
               - examples/Portenta H7 as a WiFi Access Point/SimpleWebServer
               - examples/Setting Up Portenta H7 For Arduino/Blink
+              - examples/Vision Shield to SD Card bmp/visionShieldBitmap
 
           - fqbn: arduino:mbed_portenta:envie_m4
             sketch-paths: |
