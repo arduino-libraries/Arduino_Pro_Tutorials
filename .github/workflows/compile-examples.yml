@@ -47,7 +47,7 @@ jobs:
               - examples/Setting Up Portenta H7 For Arduino/Blink
               - examples/Vision Shield to SD Card bmp/visionShieldBitmap
 
-          - fqbn: arduino:mbed_portenta:envie_m4
+          - fqbn: arduino:mbed_portenta:envie_m7:target_core=cm4
             sketch-paths: |
               - examples/Dual Core Processing/BlinkGreenLed_M4
 
