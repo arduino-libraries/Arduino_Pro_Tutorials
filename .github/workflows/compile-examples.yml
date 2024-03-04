@@ -46,14 +46,17 @@ jobs:
               - examples/Portenta H7 as a WiFi Access Point/SimpleWebServer
               - examples/Setting Up Portenta H7 For Arduino/Blink
               - examples/Vision Shield to SD Card bmp/visionShieldBitmap
+            artifact-name-suffix: arduino-mbed_portenta-envie_m7
 
           - fqbn: arduino:mbed_portenta:envie_m7:target_core=cm4
             sketch-paths: |
               - examples/Dual Core Processing/BlinkGreenLed_M4
+            artifact-name-suffix: arduino-mbed_portenta-envie_m7-target_core-cm4
 
           - fqbn: arduino:mbed_edge:edge_control
             sketch-paths: |
               - examples/Edge Control Getting Started
+            artifact-name-suffix: arduino-mbed_edge-edge_control
 
     steps:
       - name: Checkout
@@ -86,5 +89,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           if-no-files-found: error
-          name: ${{ env.SKETCHES_REPORTS_PATH }}
+          name: sketches-report-${{ matrix.board.artifact-name-suffix }}
           path: ${{ env.SKETCHES_REPORTS_PATH }}
