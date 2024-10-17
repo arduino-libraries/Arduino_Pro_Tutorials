@@ -2,7 +2,7 @@
     Using LVGL v7.11
 */
 
-#include "Portenta_LittleVGL.h"
+#include "Portenta_lvgl.h"
 
 static lv_obj_t *label;
 int counter = 0;
